@@ -1,4 +1,8 @@
 package sample;
+//Sean Lamont
+//8-19-19
+//Intro program to test IDE
+
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -15,15 +19,21 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+
         primaryStage.setTitle("Hello World!");
+
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+
+        btn.setText("Say 'Hello World!!'");
+
         btn.setOnAction(new EventHandler<ActionEvent>() {
+
 
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
             }
+
         });
 
         StackPane root = new StackPane();
